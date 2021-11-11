@@ -15,17 +15,22 @@ function copy(){
 
 var d = new URL(location).searchParams.get("vid");
  
+var encode_url = encodeURI("http://34.123.162.141/share?url="+d);
 
-var url = "https://script.google.com/macros/s/AKfycbzaROrGF-gOjt1ibaYeXtCAeRgYFIA5L5zhfyKCQ2MbV2I5ZtVf/exec?id="+d;
+
+
+
+
+var url = "https://api.allorigins.win/get?url="+encode_url;
 
 fetch(url)
 .then((res) => {
     return res.json();
   })
 
-  .then((data) => {
+  .then((gen1) => {
 
-
+var data = JSON.parse(gen1.contents);
 
 
 var format = `<link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" /><link rel="stylesheet" href="style.css">` 
