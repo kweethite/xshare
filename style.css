@@ -1,0 +1,78 @@
+.vd {
+    border: 2px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+.box {
+    width: 40%;
+    height: 40%; 
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.main {
+    margin-bottom: 5%;
+}
+.button {
+  border-radius: 10px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-decoration: none;
+    align-items: center;
+    appearance: none;
+    background-color: rgb(71, 51, 250);
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    display: inline-flex;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 90%;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 1s cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform,opacity;
+    transition: 1s background;
+    margin-bottom: 5%;
+  }
+  
+  .button:hover {
+    background: #F6F9FE;
+    color: #174ea6;
+  }
+  
+ 
+  .button:focus {
+    outline: none;
+    border: 2px solid #4285f4;
+  }
+  
+ 
+
+
+.btn0 {
+  background-color: gray;
+}
+
+
+.btn1 {
+  background-color: rgb(151, 77, 204);
+}
+
+ .div {
+        box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+        color: #3c4043;
+        text-align: center;
+
+ }
