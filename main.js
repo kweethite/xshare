@@ -1,5 +1,5 @@
 function download(url){
-
+alert("log download fun ");
 var appWindow = window.open("th://xdown/?link="+url,"blank"); 
  setTimeout( function () {
  if (appWindow) { 
