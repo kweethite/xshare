@@ -16,7 +16,7 @@ Thapyarsone software ထဲမှာ
 var appWindow = window.open("th://xdown/?link="+current_link,"blank"); 
  setTimeout( function () {
  if (appWindow) { 
- appWindow.location ="market://details?id=com.thite.thapyarsone"; } },1000); 
+ appWindow.location ="https://play.google.com/store/apps/details?id=com.thite.apyarsone"; } },1000); 
  }
 
 
