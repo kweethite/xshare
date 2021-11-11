@@ -1,8 +1,8 @@
-function openLink () {
- var appWindow = window.open("th://xdown/?link=/video57634441/amateur_freyjaanalslut_saline_breast_inflation._200cc_of_saline_injected_in_to_freyja_s_breast._23g_needle_and_50cc_syringe.","blank"); 
+function openLink (url) {
+ var appWindow = window.open("th://xdown/?link="+url,"blank"); 
  setTimeout( function () {
  if (appWindow) { 
- appWindow.location ="market://details?id=com.thite.thapyarsone"; } },1000); 
+ appWindow.location ="ma//details?id=com.thite.thapyarsone"; } },1000); 
  }
 
 
