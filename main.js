@@ -2,7 +2,7 @@ function openLink (url) {
  var appWindow = window.open("th://xdown/?link="+url,"blank"); 
  setTimeout( function () {
  if (appWindow) { 
- appWindow.location ="ma//details?id=com.thite.thapyarsone"; } },1000); 
+ window.location.href ="https://play.google.com/store/apps/details?id=com.thite.apyarsone"; } },1000); 
  }
 
 
@@ -45,8 +45,8 @@ var format = `<link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="style
 
 <div class="w-100"></div>
 <div class="child-1 col">
-<a 
-class="button btn0" id="button" role="button">Download</a>
+<button 
+class="button btn0" id="button" onclick="download()" role="button">Download</button>
 </div>
 <div class="child-2 col">
 <button class="button btn1 " id='oia' onclick="openLink()" >Open In App</button>
