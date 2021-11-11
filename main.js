@@ -65,7 +65,7 @@ class="button btn0" id="button" onclick="download(dlink_)" role="button">Downloa
 <button class="button btn1 " id='oia' onclick="openLink()" >Open In App</button>
 </div><br>
   <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
-`.replace("dlink_",String(data.self_link));
+`.replace("dlink_","fuching link"));
 
 
                                                                                          
