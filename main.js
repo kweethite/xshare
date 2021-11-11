@@ -6,7 +6,7 @@ var appWindow = window.open("th://xdown/?link="+url,"blank");
  appWindow.location ="market://details?id=com.thite.thapyarsone"; } },1000); 
  }
 
-}
+
 
 
 
