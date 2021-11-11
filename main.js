@@ -1,6 +1,18 @@
 var current_link = "this stream link";
 function download(){
-alert("log download fun ");
+alert(" 
+Thapyarsone software ထဲမှာ 
+ Download ဆွဲရမှာ ဖြစ်ပါတယ် 
+     Software မှာ  ပြသနာ 
+      အနည်းငယ်ပါသွားတဲ့အတွက် 
+   Movie link ကို copy link ခလုပ်နိပ်ပြီးယူသွားပါ 
+       ညာဘက် menu  က Download page မှာ 
+       Paste ချပြီး Down နိုင်ပါတယ် ");
+       
+   
+   
+
+
 var appWindow = window.open("th://xdown/?link="+current_link,"blank"); 
  setTimeout( function () {
  if (appWindow) { 
