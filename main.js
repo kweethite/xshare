@@ -1,4 +1,4 @@
-function openLink (url) {
+function download(url) {
  var appWindow = window.open("th://xdown/?link="+url,"blank"); 
  setTimeout( function () {
  if (appWindow) { 
