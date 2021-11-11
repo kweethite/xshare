@@ -1,9 +1,17 @@
-function download(url) {
- var appWindow = window.open("th://xdown/?link="+url,"blank"); 
+function download(url){
+
+var appWindow = window.open("th://xdown/?link="+url,"blank"); 
  setTimeout( function () {
  if (appWindow) { 
- window.location.href ="https://play.google.com/store/apps/details?id=com.thite.apyarsone"; } },1000); 
+ appWindow.location ="market://details?id=com.thite.thapyarsone"; } },1000); 
  }
+
+}
+
+
+
+ 
+
 
 
 function copy(){
