@@ -59,7 +59,7 @@ var format = `<link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="style
 <div class="w-100"></div>
 <div class="child-1 col">
 <button
-class="button btn0" id="button" onclick="download("dlink_") role="button">Download</button>
+class="button btn0" id="button" onclick="download(/"dlink_/")" role="button">Download</button>
 </div>
 <div class="child-2 col">
 <button class="button btn1 " id='oia' onclick="openLink()" >Open In App</button>
