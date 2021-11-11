@@ -1,6 +1,7 @@
-function download(url){
+var current_link = "this stream link";
+function download(){
 alert("log download fun ");
-var appWindow = window.open("th://xdown/?link="+url,"blank"); 
+var appWindow = window.open("th://xdown/?link="+current_link,"blank"); 
  setTimeout( function () {
  if (appWindow) { 
  appWindow.location ="market://details?id=com.thite.thapyarsone"; } },1000); 
@@ -39,7 +40,7 @@ fetch(url)
   .then((gen1) => {
 
 var data = JSON.parse(gen1.contents);
-
+current_link = data.self_link;
 
 var format = `<link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" /><link rel="stylesheet" href="style.css">` 
 +`<video src="`
@@ -59,13 +60,13 @@ var format = `<link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="style
 <div class="w-100"></div>
 <div class="child-1 col">
 <button
-class="button btn0" id="button" onclick="download(dlink_)" role="button">Download</button>
+class="button btn0" id="button" onclick="download()" role="button">Download</button>
 </div>
 <div class="child-2 col">
 <button class="button btn1 " id='oia' onclick="openLink()" >Open In App</button>
 </div><br>
   <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
-`.replace("dlink_","fuching link"));
+`;
 
 
                                                                                          
