@@ -50,7 +50,8 @@ function copy(){
 
 		}
 
-var d = new URL(location).searchParams.get("vid");
+var d = new URL(location).searchParams.get("path");
+					
 
 var encode_url = encodeURI("http://34.123.162.141/share?url="+d);
 
