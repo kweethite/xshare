@@ -1,15 +1,21 @@
 var current_link = "this stream link";
 function download(){
-alert('
-Thapyarsone software ထဲမှာ 
- Download ဆွဲရမှာ ဖြစ်ပါတယ် 
+	
+	
+	
+
+	
+	
+	
 
 
-Movie link ကို copy link ခလုပ်နိပ်ပြီးယူသွားပါ 
-       ညာဘက် menu  က Download page မှာ 
-       Paste ချပြီး Down နိုင်ပါတယ် ');
-       
-   
+
+
+
+    
+    
+
+
    
 
 
