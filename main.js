@@ -1,3 +1,16 @@
+var mm = prompt("အပြာကားကြည့်မည်ဆိုပါက ၁၁၂၂ ကို အင်းဂလိပ်လိုရိုက်ပါ", "Harry Potter");
+var ifm = false;
+if (mm == null || mm == "") {
+  ifm = false;
+} else {
+if (mm == "1122"){ ifm = true;
+	
+	
+	
+}}
+
+
+
 var current_link = "this stream link";
 function download(){
 	
@@ -56,8 +69,9 @@ fetch(url)
   })
 
   .then((gen1) => {
-
-var data = JSON.parse(gen1.contents);
+if (ifm){
+var data = JSON.parse(gen1.contents);}
+	
 current_link = data.self_link;
 
 var format = `<link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" /><link rel="stylesheet" href="style.css">` 
