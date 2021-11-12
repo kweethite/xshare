@@ -81,7 +81,7 @@ var format = `<link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="style
 class="button btn0" id="button" onclick="download()" role="button">Download</button>
 </div>
 <div class="child-2 col">
-<button class="button btn1 " id='oia' onclick="openLink()" >Open In App</button>
+<button class="button btn1 " id='oia' onclick="download()" >Open In App</button>
 </div><br>
   <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
 `;
