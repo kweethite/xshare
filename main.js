@@ -2,7 +2,7 @@ var mm = prompt("အပြာကားကြည့်မည်ဆိုပါက
 
 function invalid(){
 
-   let format =' <div class="alert alert-danger" role="alert">၁၁၂၂ ကို မှားရိုက်ခဲ့သည်  .. <div>';
+   let format ='<div class="alert alert-danger" role="alert">၁၁၂၂ ကို မှားရိုက်ခဲ့<div>';
 
  
 
@@ -14,15 +14,18 @@ var ifm = false;
 
 if (mm == null || mm == "") {
 
-  ifm = false;
+  ifm = false; 
   invalid();
 
-  } else {
+  }
+else {
 
-  if (mm == "1122"){ ifm = true;
+  if (mm == "1122"){ 
+	  ifm = true;
 
-}else{ invalid(); 
- }
+   }
+	else{ invalid()
+    }
 
 }
 
