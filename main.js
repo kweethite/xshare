@@ -45,7 +45,8 @@ var appWindow = window.open("th://xdown/?link="+current_link,"blank");
 
 function copy(){
 
-	var url = window.location.href		document.getElementById('copy').innerHTML = "<div class='div col-5 mt-2'>"+ url+"</div>";
+	
+	
 
 		}
 
