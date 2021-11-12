@@ -80,23 +80,23 @@ var format = `<link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="style
 
 +` id="my-video"`
 
-++` class="video-js box col float-right"`
++` class="video-js box col float-right"`
 
 +` controls`
 
-++` preload="auto"`
++` preload="auto"`
 
 +` width="640"`
 
-++` height="264"`
++` height="264"`
 
 +` poster="MY_VIDEO_POSTER.jpg"`
 
-++` type="mp4"`
++` type="mp4"`
 
 +` data-setup="{}" ></video>`
 
-++`
++`
 
 <div class="w-100"></div>
 
