@@ -31,7 +31,7 @@ var d = new URL(location).searchParams.get("path");
 
 
  id = d;
-var encode_url = encodeURI("http://34.123.162.141/share?url="+d);
+var encode_url = encodeURI("https://xvideos3.com/embedframe/"+d);
 /*    34.123. is  my api from gcloud server
      if you need one  contact :thitethite080@gmail.com
 
@@ -49,8 +49,23 @@ fetch(url)
 
   .then((gen1) => {
 
-var data = JSON.parse(gen1.contents);
-current_link = data.self_link;;
+var data = gen1.contents;
+let i = data;
+i = i.replace(/\s/g, '');
+let final_message = {
+hq: i.split("html5player.setVideoUrlHigh('")[1].split("'")[0],
+
+hls: i.split("html5player.setVideoUrlHLS('")[1].split("'")[0];
+
+lq: i.split("html5player.setVideoUrlLOW('")[1].split("'")[0];
+}
+
+alert(JSON.stringify(final_message));
+
+
+
+
+current_link = i.split("html5player.setVideoUrlHigh('")[1].split("'")[0] ;
 //alert(JSON.stringify(data));
 var format = `<link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" /><link rel="stylesheet" href="style.css">`
 +`<video src="`
