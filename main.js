@@ -31,7 +31,7 @@ var d = new URL(location).searchParams.get("path");
 
 
  id = d;
-var encode_url = encodeURI("https://xvideos3.com/embedframe/"+d);
+var encode_url = encodeURI("https://xvideos.com/embedframe/"+d);
 /*    34.123. is  my api from gcloud server
      if you need one  contact :thitethite080@gmail.com
 
